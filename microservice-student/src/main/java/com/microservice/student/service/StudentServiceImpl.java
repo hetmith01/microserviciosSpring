@@ -10,7 +10,7 @@ import java.util.Optional;
 public class StudentServiceImpl implements IStudentService {
 
     @Autowired
-    private StudentRepository studentRepository
+    private StudentRepository studentRepository;
 
 
     @Override
