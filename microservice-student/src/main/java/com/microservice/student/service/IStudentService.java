@@ -12,7 +12,7 @@ public interface IStudentService {
     Student findById(Long id);
 
     void save(Student student);
-s
+
     List<Student> findByIdCourse(Long idCourse);
 
 }
