@@ -22,7 +22,7 @@ public class StudentController {
     }
 
 
-    @GetMapping("all")
+    @GetMapping("/all")
     public ResponseEntity<?> findAllStudent(){
         return ResponseEntity.ok(studentService.findAll());
     }
